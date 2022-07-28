@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+#private{
+    position: fixed;
+    z-index: 10;
+}
+#private:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+#responsePrivate{
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#responsePrivateInner{
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    background-color: aliceblue;
+}
+.close{
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    color: darkslategray;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.close:hover{
+    cursor: pointer;
+    color: black;
+}
